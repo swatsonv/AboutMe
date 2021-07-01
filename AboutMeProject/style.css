@@ -1,0 +1,144 @@
+body {
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body {
+  text-align: center;
+
+  font-size: 10pt;
+
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+  color: white;
+
+  line-height: 14pt;
+
+  padding-left: 5pt;
+
+  padding-right: 5pt;
+
+  padding-top: 5pt;
+
+}
+
+.scrollable-element {
+  scrollbar-color: #149c4a #FFFFFF;
+}
+
+#subheader {
+  color: pink;
+  font-size: 17px;
+  font-style: italic;
+  text-shadow: 1px 1px #ff50a2;
+}
+
+a:visited {
+  color: pink;
+}
+
+div.scroll {
+                margin:4px, 4px;
+                padding:4px;
+                background-color: #149c4a;
+                width: 350px;
+                height: 210px;
+                overflow-x: auto;
+                overflow-y: auto;
+                text-align:justify;
+                border-radius: 5px;
+            }
+
+div.scroll2 {
+                margin:4px, 4px;
+                padding:4px;
+                background-color: #149c4a;
+                width: 350px;
+                height: 210px;
+                overflow-x: auto;
+                overflow-y: auto;
+                text-align: justify;
+                border-radius: 5px;
+              }
+
+div.scroll3 {
+                              margin:4px, 4px;
+                              padding:4px;
+                              background-color: #149c4a;
+                              width: 350px;
+                              height: 210px;
+                              overflow-x: auto;
+                              overflow-y: auto;
+                              text-align: center;
+                              border-radius: 5px;
+}
+
+
+}
+ul           {
+  list-style: square;
+}
+
+div {
+  width: 300px;
+  border: 2px solid white;
+  padding: 50px;
+  margin: 20px;
+}
+
+#content {
+  width: 1700px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: none;
+  justify-content: space-between;
+}
+
+blockquote {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px #ff50a2;
+  font-size: 30px;
+  font-style: italic;
+  text-decoration: overline;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px #ff50a2;
+  font-size: 30px;
+  font-style: italic;
+  text-decoration: underline;
+
+}
+
+
+figcaption {
+  text-align : center;
+  font-size: 12px;
+  background: #149c4a;
+  border:solid 2px white;
+  padding: 2px;
+  margin: 10px 775px 10px 775px;
+  width: 200px;
+  border-radius: 25px;
+}
+
+
+div.footer {
+
+  font-size: 9pt;
+
+  font-style: italic;
+
+  line-height: 12pt;
+
+  text-align: center;
+
+  padding-top: 30pt;
+
+}
